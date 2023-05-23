@@ -1,0 +1,59 @@
+nav {
+    background: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+    gap: 3rem;
+    position: sticky;
+    top: 5.8rem;
+}
+
+nav a {
+    text-align: center;
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--color-bg);
+}
+
+nav a:hover {
+    background: var(--color-sm);
+    border-radius: 0.5rem;
+}
+
+nav a.active {
+    background: var(--color-bg);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.disabled-link {
+    color: gray;
+    pointer-events: none;
+    text-decoration: none;
+    cursor: not-allowed;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+/* ============= MEDIA QUERIES (for 1024px) ============= */
+@media screen and (max-width: 1024px) {
+    nav  {
+        /* padding: 0; */
+        gap: 0.5rem;
+        /* font-size: 1rem; */
+    }
+}
+
+/* ============= MEDIA QUERIES (for 600px) ============= */
+@media screen and (max-width: 600px) {
+    nav  {
+        flex-direction: column;
+    }
+    nav a {
+        /* margin-right: 0; */
+        margin-bottom: 10px;
+    }
+}
