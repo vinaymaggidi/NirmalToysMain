@@ -1,0 +1,34 @@
+.stickyheader__header {
+    text-align: center;
+    padding: 1rem;
+    background: rgb(233, 81, 225);
+    position: sticky;
+    top: 0;
+    height: 6rem;
+    z-index: 1;
+}
+
+.ts-logo__header {
+    float: left;
+    width: 15rem; 
+}
+
+.logo__header {
+    display: inline-block;
+    position: absolute;
+    top: 0.5rem;
+    left: 43%;
+
+    width: 9rem;
+}
+
+/* ============ MEDIA QUERIES(SMALL DEVICES) =========== */
+@media screen and (max-width: 600px) {
+    .ts-logo__header {
+        width: 12rem;
+    }
+
+    .logo__header {
+        width: 7rem;
+    }
+}
