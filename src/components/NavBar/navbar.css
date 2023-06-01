@@ -6,6 +6,7 @@ nav {
     gap: 3rem;
     position: sticky;
     top: 5.8rem;
+    z-index: 1;
 }
 
 nav a {
