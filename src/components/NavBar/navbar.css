@@ -49,7 +49,7 @@ nav a.active {
 }
 
 /* ============= MEDIA QUERIES (for 600px) ============= */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     nav  {
         flex-direction: column;
     }
