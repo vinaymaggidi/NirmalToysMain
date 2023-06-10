@@ -22,6 +22,7 @@
     width: 9rem;
 }
 
+
 /* ============ MEDIA QUERIES(SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
     .ts-logo__header {
@@ -32,3 +33,4 @@
         width: 7rem;
     }
 }
+

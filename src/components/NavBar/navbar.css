@@ -38,6 +38,10 @@ nav a.active {
     display: none;
     cursor: pointer;
 }
+.menu-button{
+    
+    display: none;
+}
 
 /* ============= MEDIA QUERIES (for 1024px) ============= */
 @media screen and (max-width: 1024px) {
@@ -50,11 +54,28 @@ nav a.active {
 
 /* ============= MEDIA QUERIES (for 600px) ============= */
 @media screen and (max-width: 700px) {
-    nav  {
+    .nav__items {
+        display: none;
+    }
+    .nav__items.active{
+        display: flex;
         flex-direction: column;
     }
     nav a {
         /* margin-right: 0; */
         margin-bottom: 10px;
+    }
+    .menu-button{
+        width: 40px;;
+        height: 40px;
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        left: 90%;
+        z-index: 2;
+        margin-top: -70px;
+    }
+    .menu-button.active{
+        
     }
 }
