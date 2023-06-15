@@ -1,22 +1,63 @@
-footer {
-    background: var(--color-primary);
-    padding: 3rem 0;
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 7rem;
+.footer {
+    background-color: #bdbdbd;
+    /* padding: 0 20px 10px 0; */
+    height: auto;
+    width: 100%; 
+    color: black;
+    align-items: center;
+    justify-content: center;
 }
+.footerabove{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: auto 2 auto;
+}
+.footerLeft{
+    float: left;
+    padding-top: 23px;
+    text-align: center;
+    /* padding-left: 80px; */
+}
+.footerHeading{
+    font-size: 18px;
+}
+.footerCenter{
+    padding-top: 40px;
+    text-align: center;
+    /* padding-left: 234px; */
+}
+.rguktLogo{
+    width: 240px;
+    height: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footerRight{
+    padding-top: 23px;
+    text-align: center;
+} 
 
-footer a {
+.footerLeftList li {
     color: var(--color-bg);
 }
-
+.footerLeftList li:hover {
+    color: var(--color-white);
+    text-decoration: underline;
+}
 .footer__socialMedia {
     display: flex;
-    justify-content: center;
     gap: 1rem;
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
+    /* padding-left: 500px; */
 }
 
+.footerbelow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .footer__socialMedia a {
     background: var(--color-bg);
     color: var(--color-white);
@@ -33,13 +74,45 @@ footer a {
 }
 
 .footer__copyright {
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    color: var(--color-bg);
+}
+footer a {
     color: var(--color-bg);
 }
 
-/* ============ MEDIA QUERIES(SMALL DEVICES) =========== */
-@media screen and (max-width: 600px) {
-    .footer__socialMedia {
-        margin-bottom: 2.6rem;
+
+/* ============ MEDIA QUERIES(medium DEVICES) =========== */
+@media screen and (max-width: 1024px) {
+    .footerabove{
+        padding: auto;
+    }
+    .footerRight{
+        width: auto;
+        text-align: center;
+    }
+    .footerbelow{
+        padding: auto;
+    }
+}
+
+/* ============ MEDIA QUERIES(Small DEVICES) =========== */
+
+@media screen and (max-width:700px) {
+    .footerabove{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+    .footerabove{
+        padding: auto;
+    }
+    .footerRight{
+        width: auto;
+        padding-top: 23px;
+        text-align: center;
+    }
+    .footer__copyright{
+        margin: auto;
     }
 }
