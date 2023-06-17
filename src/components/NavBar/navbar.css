@@ -1,12 +1,14 @@
-nav {
+.navbar {
     background: var(--color-primary);
+    position: sticky; 
+    top: 5.8rem;
+    z-index: 1;   
+}
+nav{
     display: flex;
     justify-content: center;
     padding: 1rem 0 1rem 0;
-    gap: 3rem;
-    position: sticky;
-    top: 5.8rem;
-    z-index: 1;
+    gap: 3rem;  
 }
 
 nav a {
@@ -38,6 +40,10 @@ nav a.active {
     display: none;
     cursor: pointer;
 }
+.menu-button{
+    
+    display: none;
+}
 
 /* ============= MEDIA QUERIES (for 1024px) ============= */
 @media screen and (max-width: 1024px) {
@@ -49,12 +55,29 @@ nav a.active {
 }
 
 /* ============= MEDIA QUERIES (for 600px) ============= */
-@media screen and (max-width: 600px) {
-    nav  {
+@media screen and (max-width: 700px) {
+    .nav__items {
+        display: none;
+    }
+    .nav__items.active{
+        display: flex;
         flex-direction: column;
     }
     nav a {
         /* margin-right: 0; */
         margin-bottom: 10px;
+    }
+    .menu-button{
+        width: 40px;;
+        height: 40px;
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        left: 90%;
+        z-index: 2;
+        margin-top: -70px;
+    }
+    .menu-button.active{
+        
     }
 }

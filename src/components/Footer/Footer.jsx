@@ -7,33 +7,23 @@ import {BsFillTelephoneFill, BsLinkedin} from 'react-icons/bs'
 import {FaMapMarkerAlt} from 'react-icons/fa'
 import { HiMail } from "react-icons/hi";
 import rgukt from '../../assets/rgukt.png';
+import About from '../About/About'
+import {Link, NavLink} from 'react-router-dom'
 
 const Footer = () => {
     return (
         <>
-            {/* <footer>
-                <div className="footer__socialMedia">
-                    <a href="#" target='_blank'><BsLinkedin /></a>
-                    <a href="#" target='_blank'><FaFacebookF /></a>
-                    <a href="https://www.instagram.com/_victory_vinay_/" target='_blank'><FiInstagram /></a>
-                    <a href="#" target='_blank'><IoLogoTwitter /></a>
-                </div>
-
-                <div className="footer__copyright">
-                    <small>Copyright &copy; Nirmal Toys | 2023 All rights reserved.</small>
-                </div>
-            </footer> */}
             <div className="footer">
                 <div className="footerabove">
                     <div className="footerLeft">
                         <div className="footerHeading"><h2>ABOUT</h2></div>
                         <ul className="footerLeftList">
-                            <li>About us</li>
-                            <li>Gallery</li>
+                            <NavLink to="/about" ><li>About us</li></NavLink>
+                            <NavLink to="/galary"><li>Gallery</li></NavLink>
                             <li>News & Events</li>
                             <li>Route map</li>
                             <li>Contact us</li>
-                            <li>Privacy Policy</li>
+                            <NavLink to="/privacypolicy"><li>Privacy Policy</li></NavLink>
                         </ul>
                     </div>
                     <div className="footerCenter">
