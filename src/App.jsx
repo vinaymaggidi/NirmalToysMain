@@ -8,6 +8,8 @@ import Galary from './components/Galary/Galary';
 import Home from './components/Home/Home';
 import PrivacyPolicy from './components/About/PrivacyPolicy';
 import RouteMap from './components/RouteMap/RouteMap';
+import Contact from './components/Contact/Contact';
+import NewsEvents from './components/NewsEvents/NewsEvents';
 
 
 function App() {
@@ -19,9 +21,12 @@ function App() {
                 <Switch>
                     <Route path="/home" component={Home} />
                     <Route path="/galary" component={Galary} />
+                    <Route path="/news" component={NewsEvents} />
                     <Route path="/about" component={About} />
+                    <Route path="/contact" component={Contact} />
                     <Route path="/privacypolicy" component={PrivacyPolicy}/>
                     <Route path="/route" component={RouteMap} />
+                    <Redirect from="/" to="/home"/>
                 </Switch>
             </main>
 
