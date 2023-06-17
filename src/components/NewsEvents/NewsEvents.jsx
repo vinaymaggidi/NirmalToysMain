@@ -86,7 +86,7 @@ export default function NewsEvents() {
                     />
                 </div>
                 <div className='video'>
-                    <iframe src='https://www.youtube.com/watch?v=E6kkwRuChGE'
+                    <iframe src='https://www.youtube.com/embed/E6kkwRuChGE'
                         frameborder='0'
                         allow='autoplay; encrypted-media'
                         allowfullscreen
@@ -94,7 +94,7 @@ export default function NewsEvents() {
                     />
                 </div>
                 <div className='video'>
-                    <iframe src='https://www.youtube.com/watch?v=F850ewPpoo4'
+                    <iframe src='https://www.youtube.com/embed/F850ewPpoo4'
                         frameborder='0'
                         allow='autoplay; encrypted-media'
                         allowfullscreen
