@@ -8,6 +8,7 @@ import Galary from './components/Galary/Galary';
 import Home from './components/Home/Home';
 import PrivacyPolicy from './components/About/PrivacyPolicy';
 import RouteMap from './components/RouteMap/RouteMap';
+import NewsEvents from './components/NewsEvents/NewsEvents';
 
 
 function App() {
@@ -22,11 +23,11 @@ function App() {
                     <Route path="/about" component={About} />
                     <Route path="/privacypolicy" component={PrivacyPolicy}/>
                     <Route path="/route" component={RouteMap} />
+                    <Route path="/news" component={NewsEvents}/>
                 </Switch>
             </main>
 
         </>
     );
 }
- 
 export default App;
