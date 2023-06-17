@@ -50,17 +50,23 @@ iframe{
 
 /* ============ MEDIA QUERIES(MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
-    .galary-images {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+    .videos{
+         display: grid;
+        grid-template-columns: repeat(2, minmax(200px, 1fr)); /* Adjust the dimensions as needed */
+        grid-gap: 20px; /* Adjust the gap between images as needed */
+        background-color: rgb(196, 214, 208);
+        height: calc();
     }
 }
 
 /* ============ MEDIA QUERIES(SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
-    .galary-images {
-        grid-template-columns: 1fr;
-        gap: 1rem;
+    .videos{
+         display: grid;
+            grid-template-columns: repeat(1, minmax(200px, 1fr)); /* Adjust the dimensions as needed */
+            grid-gap: 20px; /* Adjust the gap between images as needed */
+            background-color: rgb(196, 214, 208);
+            height: calc();
     }
     .iframe{
         height: 250px;
