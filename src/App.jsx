@@ -18,6 +18,7 @@ function App() {
             <Navbar />
             <main className="app-container">
                 <Switch>
+                    <Route path="/" component={Home} />
                     <Route path="/home" component={Home} />
                     <Route path="/galary" component={Galary} />
                     <Route path="/about" component={About} />
