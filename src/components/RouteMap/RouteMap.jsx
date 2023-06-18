@@ -20,20 +20,21 @@ const location = {
 export default function RouteMap() {
   return (
     <div className="map">
-        <h2 className="map-h2">Come Visit Us At our Shop</h2>
 
-        <div className="google-map">
-          <GoogleMapReact 
+      <h2 className="map-h2">Come Visit Us At our Shop <a href="https://maps.app.goo.gl/PVTqS7NdPgep9HY86" target='_blank'><button className='btn btn-primary maplink'>Location</button></a></h2>
+
+      <div className="google-map">
+        <GoogleMapReact 
           bootstrapURLKeys={{key:''}}
           defaultCenter={location}
           defaultZoom={17}
-          >
-            <LocationPin className="location"
-            lat={location.lat}
-            lng={location.lng}
-            text={location.address}/>
-          </GoogleMapReact>
-        </div>
+        >
+        <LocationPin className="location"
+          lat={location.lat}
+          lng={location.lng}
+          text={location.address}/>
+        </GoogleMapReact>
+      </div>
     </div>
   )
 }

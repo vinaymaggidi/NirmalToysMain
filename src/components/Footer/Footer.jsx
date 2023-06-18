@@ -20,9 +20,9 @@ const Footer = () => {
                         <ul className="footerLeftList">
                             <NavLink to="/about" ><li>About us</li></NavLink>
                             <NavLink to="/galary"><li>Gallery</li></NavLink>
-                            <li>News & Events</li>
-                            <li>Route map</li>
-                            <li>Contact us</li>
+                            <NavLink to="/news"><li>News &amp; Events</li></NavLink>
+                            <NavLink to="/route"><li>Route Map</li></NavLink>
+                            <NavLink to="/contact"><li>Contact Us</li></NavLink>
                             <NavLink to="/privacypolicy"><li>Privacy Policy</li></NavLink>
                         </ul>
                     </div>
