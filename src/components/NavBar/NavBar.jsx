@@ -10,6 +10,7 @@ import {BiMessageSquareDetail} from 'react-icons/bi'
 import {BiMap} from 'react-icons/bi'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 import { RiMenuLine } from 'react-icons/ri';
+import { FaTimes } from 'react-icons/fa';
 // import Galary from './../Galary/Galary';
 
 
@@ -22,6 +23,7 @@ const NavBar = () => {
     return (
             <div className="navbar">      
                 <RiMenuLine onClick={toggleMenu} className={`menu-button ${isActive?"active":""}`} />
+                <FaTimes onClick={toggleMenu} className={`cancel-button ${isActive?"active":""}`}/>
                     
                 <nav onClick={toggleMenu} className={`nav__items ${isActive?"active":""}`}>
                         <NavLink to="/home" className="nav-item nav-link">
