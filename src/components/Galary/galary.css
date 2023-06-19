@@ -1,7 +1,8 @@
 .galary-images {
     display: grid;
     grid-template-columns: repeat(3, minmax(200px, 1fr)); /* Adjust the dimensions as needed */
-    grid-gap: 10px; /* Adjust the gap between images as needed */
+    grid-gap: 5px; /* Adjust the gap between images as needed */
+    width: 100%;
 }
 
 .galary-image {
@@ -28,7 +29,7 @@
 } */
 
 .toy-image img{
-    width:400px;
+    width:100%;
     height: 300px;
     object-fit: fill;
     border-radius: 1.5rem;

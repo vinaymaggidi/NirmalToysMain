@@ -2,31 +2,57 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(247, 171, 250);
-    font-size: 30px;
+    color: rgb(177, 130, 179);
+    font-size: 33px;
 }
+.newsEvents{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .news{
-    top: 5px;
-    bottom: 5px;
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
     height: calc();
-    border: 2px;
-    border-style: none;
-    border-color: rgb(241, 235, 235);
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
 }
 .news:hover{
-    background-color: rgba(215, 249, 255, 0.445);
+    background-color: rgba(163, 150, 150, 0.445);
     
 }
+.newsImage{
+    width: 100px;
+    height: 100px;
+    display:grid;
+    align-items: center;
+}
+.newsImage img{
+    /* margin-top: 21px; */
+    border-radius: 10px;
+}
+.newsLine a h3{
+    font-size: 20px;
+}
 .text{
-    top: 0;
+    margin-top: -10px;
 }
 .text p{
-    size: 2px;
+    font-size:15px;
 }
 .text p b{
     color: rgb(247, 183, 183);
+} 
+hr{
+    background-color:rgb(185, 185, 185);
+    height: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
-
 .videos{
     display: grid;
     grid-template-columns: repeat(3, minmax(200px, 1fr)); /* Adjust the dimensions as needed */
@@ -50,19 +76,38 @@ iframe{
 
 /* ============ MEDIA QUERIES(MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
-    .galary-images {
-        grid-template-columns: 1fr 1fr;
+    .videos {
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
         gap: 1.2rem;
+    }
+    .heading{
+        font-size: 25px;
     }
 }
 
 /* ============ MEDIA QUERIES(SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
-    .galary-images {
-        grid-template-columns: 1fr;
+    .videos {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
         gap: 1rem;
     }
     .iframe{
         height: 250px;
+    }
+    .heading{
+        font-size:15px;
+    }
+    .newsImage img{
+        object-fit: fill;
+        width: 100px;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 800px)
+{
+    .newsImage{
+        object-fit: fill;
+        width: 150px;
+        height: 150;
     }
 }
