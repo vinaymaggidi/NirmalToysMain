@@ -5,6 +5,7 @@ import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
+import ravikanth from '../../assets/ravikanth.jpg'
 
 const Contact = () => {
 
@@ -54,6 +55,41 @@ const Contact = () => {
                     <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
                     <button type='submit' className='btn btn-primary'>Send Message</button>
                 </form>
+            </div>
+            <div className='contact-footer'>
+                <div className='left'>
+                    <h1>FACULTY COORDINATORS:</h1>
+                    <div className='imageC'>
+                        <div className='img-container'><img src={ravikanth} alt="img" className='img' /></div>
+                        <div className='details'><h3>Mr.Ravikanth K, Assistant Professor,<br/> R&D Coordinator, CSE</h3></div>
+                    </div>
+                    <div className='imageC'>
+                        <div className='img-container'><img src={ravikanth} alt="img" className='img' /></div>
+                        <div className='details'><h3>Mr.Sujoy Sarkar, Assistant Professor,<br /> HoD CSE</h3></div>
+                    </div>
+                    <div className='imageC'>
+                        <div className='img-container'><img src={ravikanth} alt="img" className='img' /></div>
+                        <div className='details'><h3>Mr.Swapnil J, Assistant Professor,<br /> MBA</h3></div>
+                    </div>
+                </div>
+                <div className='center'>
+                    <h1>DESIGNED AND DEVELOPED BY</h1>
+                    <div className='rgukt'>
+                        <h2>RGUKT BASAR UNIVERSITY</h2>
+                        <h2>DEPARTMENT OF CSE</h2>
+                        <h2>RESEARCH AND DEVELOPMENT CELL</h2>
+                    </div>
+                </div>
+                <div className='right'>
+                    <h1>STUDENT COORDINATORS:</h1>
+                    <div className='students'>
+                        <h3>Mr.Vinay M, CSE</h3>
+                        <h3>Mr.Rakesh P, CSE</h3>
+                        <h3>Mr.Asif S, CSE</h3>
+                        <h3>Mr.Soheb M, CSE</h3>
+                        <h3>Mr.Ajazuddin M, CSE</h3>
+                    </div>
+                </div>
             </div>
         </section>
     )
