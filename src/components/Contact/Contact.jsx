@@ -59,18 +59,9 @@ const Contact = () => {
             <div className='contact-footer'>
                 <div className='left'>
                     <h1>FACULTY COORDINATORS:</h1>
-                    <div className='imageC'>
-                        <div className='img-container'><img src={ravikanth} alt="img" className='img' /></div>
-                        <div className='details'><h3>Mr.Ravikanth K, Assistant Professor,<br/> R&D Coordinator, CSE</h3></div>
-                    </div>
-                    <div className='imageC'>
-                        <div className='img-container'><img src={ravikanth} alt="img" className='img' /></div>
-                        <div className='details'><h3>Mr.Sujoy Sarkar, Assistant Professor,<br /> HoD CSE</h3></div>
-                    </div>
-                    <div className='imageC'>
-                        <div className='img-container'><img src={ravikanth} alt="img" className='img' /></div>
-                        <div className='details'><h3>Mr.Swapnil J, Assistant Professor,<br /> MBA</h3></div>
-                    </div>
+                    <div className='details'><h3>Mr.Ravikanth K, Assistant Professor,<br/> R&D Coordinator, CSE</h3></div>
+                    <div className='details'><h3>Mr.Sujoy Sarkar, Assistant Professor,<br /> HoD CSE</h3></div>
+                    <div className='details'><h3>Mr.Swapnil J, Assistant Professor,<br /> MBA</h3></div>
                 </div>
                 <div className='center'>
                     <h1>DESIGNED AND DEVELOPED BY</h1>
