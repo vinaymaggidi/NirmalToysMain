@@ -25,11 +25,13 @@
 /* ============ MEDIA QUERIES(SMALL DEVICES) =========== */
 @media screen and (max-width: 600px) {
     .ts-logo__header {
-        width: 12rem;
+        width: 40%;
+        padding-top: 2%;
     }
 
     .logo__header {
-        width: 7rem;
+        width: 6rem;
+        padding-top: 2%;
         align-items: center;
         justify-content: center;
     }
