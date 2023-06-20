@@ -24,6 +24,7 @@
 }
 .footerCenter{
     padding-top: 40px;
+    padding-left: 15%;
     text-align: center;
     /* padding-left: 234px; */
 }
@@ -31,8 +32,8 @@
     width: 240px;
     height: 100px;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footerRight{
     padding-top: 23px;
@@ -106,6 +107,9 @@ footer a {
     }
     .footerabove{
         padding: auto;
+    }
+    .footerCenter{
+        padding-left: 0;
     }
     .footerRight{
         width: auto;
