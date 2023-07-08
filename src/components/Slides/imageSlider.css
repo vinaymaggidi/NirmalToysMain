@@ -1,4 +1,63 @@
-/* Imageslide  css */
+
+.slideshow-container{
+  width: 80%;
+  position: relative;
+  margin: auto;
+  height: 370px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.imageStyle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.displayNone{
+  display: none;
+}
+.displayBlock{
+  display: block;
+}
+@media screen and (max-width: 1020px) {
+  .slideshow-container{
+    width: 75%;
+    height: 230px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .slideshow-container{
+    width: 75%;
+    height: 100px;
+  }
+}
+/* .numbertext{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
+/* .text{
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 13px;
+  width: 100%;
+  text-align: center;
+  float: left;
+} */
+
+
+
+/* Imageslide  css
 .slider {
   padding-top: 0px;
   position: relative;
@@ -71,16 +130,16 @@ button:hover {
 }
 
 /* ============ MEDIA QUERIES(MEDIUM DEVICES) =========== */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
 
   
-}
+} */
 
 /* ============ MEDIA QUERIES(SMALL DEVICES) =========== */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
@@ -89,4 +148,4 @@ button:hover {
     margin-bottom: 2rem;
   }
   
-}
+}  */

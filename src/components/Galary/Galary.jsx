@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import IMG1 from '../../assets/1.png'
 import IMG2 from '../../assets/2.png'
 import IMG3 from '../../assets/3.png'
@@ -137,7 +137,7 @@ const Galary = () => {
                             </div>
                             <h3 className='about'>{about}</h3>
                             <div className="toy-details">
-                                <a href={about} className="btn btn-primary" target='_blank'>About</a>
+                                    <a href={about} className="btn btn-primary">About</a>
                             </div>
                         </article>
                     )

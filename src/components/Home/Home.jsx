@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import Contact from '../Contact/Contact.jsx';
 import Footer from '../Footer/Footer.jsx'
 // import About from '../About/About.jsx';
-import ImageSlider from '../Slides/ImageSlider.jsx';
+// import ImageSlider from '../Slides/ImageSlider.jsx';
+import ImageSliderAuto from '../Slides/ImageSliderAuto.jsx'
 import { SliderData } from '../Slides/SliderData.jsx';
 import IMG4 from '../../assets/4.png'
 import IMG5 from '../../assets/5.png'
@@ -31,8 +32,8 @@ const data = [
 
 const Home = () => {
     return (
-        <div>
-            <ImageSlider slides={SliderData} />
+        <>
+            <ImageSliderAuto ImageData={SliderData} SlideInterValTime={2500}/>
 
             <div className='galary-images'>
             {
@@ -44,7 +45,7 @@ const Home = () => {
                             </div>
                             <h3 className='about'>{about}</h3>
                             <div className="toy-details">
-                                <a href={about} className="btn btn-primary" target='_blank'>About</a>
+                                <a href={about} className="btn btn-primary">About</a>
                             </div>
                         </article>
                     )
@@ -53,7 +54,7 @@ const Home = () => {
             </div>
             <button className="more"><NavLink to="/galary">more</NavLink></button>
             <Footer />
-        </div>
+        </>
     )
 }
 

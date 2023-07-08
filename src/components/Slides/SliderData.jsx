@@ -7,21 +7,27 @@ import Slide6 from '../../assets/slide_6.jpg'
 
 export const SliderData = [
     {
-      image:Slide1
+      ImageNo:'1/6',
+      ImageSrc: Slide1,
     },
     {
-        image:Slide2
+        ImageNo:'2/6',
+      ImageSrc: Slide2,
     },
     {
-        image:Slide3
+        ImageNo:'3/6',
+      ImageSrc: Slide3,
     },
     {
-        image:Slide4
+        ImageNo:'4/6',
+      ImageSrc: Slide4,
     },
     {
-        image:Slide5
+        ImageNo:'5/6',
+      ImageSrc: Slide5,
     },
     {
-        image:Slide6
+        ImageNo:'6/6',
+      ImageSrc: Slide6,
     } 
   ];

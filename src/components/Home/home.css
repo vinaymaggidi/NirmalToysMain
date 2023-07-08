@@ -1,4 +1,33 @@
-button a {
-    text-align:justify;
-    
+.more{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: none;
+    background-color:unset;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 46%;
+}
+.more a{
+    font-size: 30px;
+    font-weight: 10px;
+    display: relative;
+    position: relative;
+    color: #66dbff;
+    text-decoration: none;
+}
+a::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: aqua;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.more a:hover::before{
+    transform: scaleX(1);
 }
