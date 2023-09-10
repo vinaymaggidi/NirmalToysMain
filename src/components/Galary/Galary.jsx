@@ -21,107 +21,107 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 2,
         image: IMG2,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 3,
         image: IMG3,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 4,
         image: IMG4,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 5,
         image: IMG5,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 6,
         image: IMG6,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 7,
         image: IMG7,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 8,
         image: IMG8,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 9,
         image: IMG9,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 10,
         image: IMG10,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 11,
         image: IMG11,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 12,
         image: IMG12,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 13,
         image: IMG13,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 14,
         image: IMG14,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 15,
         image: IMG1,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 16,
         image: IMG2,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 17,
         image: IMG3,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 18,
         image: IMG4,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 19,
         image: IMG5,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 20,
         image: IMG6,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     },
     {
         id: 21,
         image: IMG7,
-        about: 'Its Me Anonymous(Link to Details)'
+        about: 'For more Details'
     }
 ]
 
